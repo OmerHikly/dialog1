@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/screen2"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog1"
+        android:text="dialog"
+        />
+
+    <Space
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:onClick="dialog2"
+        android:layout_height="wrap_content"
+        android:text="dialog 2" />
+
+    <Space
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog3"
+        android:text="dialog3" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:onClick="dialog4"
+        android:layout_height="wrap_content"
+        android:text="dialog 4" />
+
+    <Space
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"/>
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:onClick="dialog5"
+        android:layout_height="wrap_content"
+        android:text="dialog 5" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
